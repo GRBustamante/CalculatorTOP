@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DotGothic16' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Geo' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>calc</title>
+
+</head>
+<body>
+
+
+
+<div class="calculator">
+
+<div id="screen">
+    <div>
+    <div id="previousNumber"> </div>
+    <div id="currentOperator"></div>
+    </div>
+    <div id="currentNumber"> </div> 
+</div>
+<div class="calcBody">
+    <div class="numpad">
+        <table class="numberTable">
+        <tr>
+        <td><button class="b" value=".">.</button></td>
+        <td><button class="b" value="operator" data="/" id="fButton">/</button></td>
+        <td><button class="b" value="operator" data="*" id="fButton">*</button></td> 
+        </tr>
+        <tr>
+        <td><button class="b" value="number" data="7">7</button></td> 
+        <td><button class="b" value="number" data="8">8</button></td> 
+        <td><button class="b" value="number" data="9">9</button></td>
+        </tr>
+        <tr>
+        <td><button class="b" value="number" data="4">4</button></td> 
+        <td><button class="b" value="number" data="5">5</button></td> 
+        <td><button class="b" value="number" data="6">6</button></td>
+        </tr>
+        <tr>
+        <td><button class="b" value="number" data="1">1</button></td> 
+        <td><button class="b" value="number" data="2">2</button></td> 
+        <td><button class="b" value="number" data="3">3</button></td>
+        </tr>  
+    </table>
+    
+    <div id="sideBar">
+    <button class="b" value="operator" data="-" id="fButton">-</button>
+    <button class="b" value="operator" data="+" id="plusButton">+</button>
+    <button class="b" value="equals" id="equals" >=</button>
+    </div>
+
+
+    </div> 
+    <div class="bottomBar">
+        <button class="b" id="zero" value="number" data="0">0</button> 
+        <button class="f" id="back" value="back">&#8592;</button> 
+        <button class="f" id="clear" value="AC">CLEAR </button> 
+    </div>
+</div>
+</div>
+
+<div id="navigation">
+    <a href="https://github.com/GRBustamante" id="gitLink">GRBustamante</a>
+        <div class="dropNav">
+         <button onclick="dropMenu()" class="dropButton">👽</button>
+            <div id="dropMenu" class="drop-items">
+             <a href="#">rockpapersisscors</a>
+             <a href="#">etch-a-sketch</a>
+             <a href="#">calculator</a>
+            </div>
+        </div>
+</div>
+
+
+<script type="text/javascript" src="javascript.js"></script>    
+</body>
+</html>

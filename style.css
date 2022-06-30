@@ -1,0 +1,148 @@
+/*nav*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+.dropButton {
+    background-color: black;
+    color: white; padding: 4px; font-size: 16px;
+    border: 1px white solid; cursor: help;
+    border-radius: 16px;}
+.dropButton:hover, .dropButton:focus {
+    background-color: orange; color: black;}
+.dropNav {
+    position: relative; display: inline-block;}
+.drop-items {
+    display: none; position: absolute;
+    background-color: black; min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+.drop-items a {
+    color: black;padding: 12px 16px;text-decoration: none;display: block;}
+.drop-items a:hover {
+    background-color: rgb(39, 39, 39)}
+.show {
+    display:block;
+} 
+#navigation {
+    padding: 5px;
+    margin-top: 15px;
+    border: 1px white solid;
+}
+#navigation:hover {
+    border-radius: 15px;
+    
+}
+a:link { text-decoration: none; color: lightcoral; }
+a:visited { text-decoration: none; color: lightgreen; }
+a:hover { color: orange; }
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+body {
+    font-family: monospace;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.calculator {
+    margin-top: 40px;
+    border: 2px solid white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    width: fit-content;
+    background-color:black;
+    box-shadow: 0px 0px 3px white;
+}
+#screen {
+    box-shadow: 0px 0px 4px white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: flex-end;
+    border: 1px black solid;
+    border-radius: 5px;
+    height: 80px;
+    font-size: 30px;
+    background-color: lightgray;
+    margin-bottom: 2px;
+    margin: 2px;
+}
+#previousNumber {
+    border: 1px lightgrey solid;
+    font-family: 'DotGothic16';
+    color: slategray; 
+    font-size: 25px;
+}
+#currentOperator { 
+    border: 1px lightgrey solid;
+    font-size: 30px;
+    color: black; }
+#currentNumber {
+    border: 1px lightgrey solid;
+    font-family: 'DotGothic16';
+    color: black;
+    font-size: 40px;
+}
+/* ~NUMBERS AND BUTTONS~ */
+.numBody {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.numpad {
+    padding-top: 6px;
+    padding-right: 2px;
+    justify-content: center;
+    display: flex;
+}
+.numberTable {
+    display: flex;
+}
+#sideBar {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.b {
+    font-family: 'Aldrich';
+    height: 50px;
+    width: 40px;
+    margin: 1px;
+    border-radius: 3px;
+    font-size : 38px;
+    background-color: lightgrey;
+    border-color: lightgrey;
+}
+.f {
+    color: black;
+    font-size: 30px;
+    width: 40px;
+}
+#equals, #plusButton { height: 79px; }
+#equals:hover { color: orange; }
+#equals { border-color: greenyellow; background-color: greenyellow; }
+#plusButton, #fButton, .f {
+    font-family: 'Geo';
+    border-radius: 3px;
+    border-color: orange;
+    background-color: orange;
+}
+.bottomBar {
+    display: flex;
+    padding: 1px;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    margin-left: 2px;
+}
+#zero { width: 85.6px; }
+#clear {
+    font-family: monospace;
+    margin-right: 1.5px;
+    font-size : 10px;
+    border-radius: 3px;
+    border-color: tomato;
+    background-color: tomato;
+}
+#clear:hover{ color:springgreen;}
+.b:hover, .f:hover { cursor:pointer; color: dodgerblue; }
+#plusButton:hover, #fButton:hover, .f:hover { color: red; }
+
